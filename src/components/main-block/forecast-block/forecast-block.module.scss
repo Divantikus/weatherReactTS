@@ -1,0 +1,45 @@
+@keyframes rgb {
+  0% {
+    background: #fff;
+  }
+  100% {
+    background: black;
+  }
+}
+
+.forecastBlock {
+  color: #fff;
+  overflow: hidden;
+}
+.temperatureNow {
+  font-size: 120px;
+  position: relative;
+}
+.condition {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+}
+.feelsLike {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+.flexContainer {
+  display: flex;
+  overflow: hidden;
+  @media (max-width: 689px) {
+    flex-wrap: wrap;
+  }
+}
+
+.detail {
+  top: 50px;
+  right: -20px;
+  color: #fff;
+  padding: 5px 15px;
+  position: absolute;
+  border-radius: 5px;
+  transform: rotate(-90deg);
+  background: #30107b;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
